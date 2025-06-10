@@ -1,0 +1,10 @@
+DROP FUNCTION IF EXISTS `calculate_vat`;
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `calculate_vat`(`total` DECIMAL(10,2)) 
+RETURNS DECIMAL(10,2) 
+NOT DETERMINISTIC 
+CONTAINS SQL 
+SQL SECURITY DEFINER 
+BEGIN 
+    RETURN total * 0.2; 
+END; 

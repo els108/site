@@ -1,0 +1,102 @@
+/* Общие стили */
+body {
+    background-color: #f8f9fa; /* Светлый фон */
+    color: #495057; /* Темно-серый текст */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #8bddc6; /* Мятный цвет для заголовков */
+    font-weight: bold;
+}
+
+/* Навигационная панель */
+.navbar {
+    background-color: #f8b4d9; /* Бледно-розовый фон для навигации */
+}
+
+.navbar-brand {
+    color: #8bddc6; /* Мятный цвет для бренда */
+}
+
+.navbar-nav .nav-link {
+    color: #495057; /* Темно-серый текст */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8bddc6; /* Мятный цвет при наведении */
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #f8b4d9; /* Бледно-розовый цвет для кнопок */
+    border-color: #f8b4d9; /* Бледно-розовая граница */
+}
+
+.btn-primary:hover {
+    background-color: #8bddc6; /* Мятный цвет при наведении */
+    border-color: #8bddc6; /* Мятная граница */
+}
+
+/* Стиль для карты */
+#map {
+    border: 5px solid #f8b4d9; /* Бледно-розовая рамка вокруг карты */
+    margin-top: 20px;
+}
+
+/* Стиль футера */
+footer {
+    background-color: #f8b4d9; /* Бледно-розовый фон футера */
+    color: #495057; /* Темно-серый цвет текста */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Стиль для секций */
+.container {
+    background-color: #ffffff; /* Белый фон для контейнера */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Формы */
+input, textarea {
+    background-color: #ffffff; /* Белый фон для полей ввода */
+    color: #495057; /* Темно-серый текст */
+    border: 1px solid #f8b4d9; /* Бледно-розовая граница */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #8bddc6; /* Мятная кнопка отправки */
+    color: #495057; /* Темно-серый текст */
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #f8b4d9; /* Бледно-розовый цвет при наведении */
+}
+
+/* Стиль для ссылок */
+a {
+    color: #f8b4d9; /* Бледно-розовые ссылки */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8bddc6; /* Мятные ссылки при наведении */
+}
+
+/* Стиль для текста и параграфов */
+p {
+    color: #495057; /* Темно-серый текст */
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    color: #8bddc6; /* Мятные заголовки */
+}
